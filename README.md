@@ -1,4 +1,4 @@
-To try out the kube-arango k8s operator, setup or use a k8s cluster and follow
+To try out the kube-arango 1.1.6 k8s operator, setup or use a k8s cluster and follow
 the next steps to play around with this awesome product:
 
 `kubectl apply -f 001_arango-crd.yaml`
