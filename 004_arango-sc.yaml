@@ -1,0 +1,11 @@
+# This SC example can be used to run ArangoDB with a local storage provider on K8s
+apiVersion: "storage.arangodb.com/v1alpha"
+kind: "ArangoLocalStorage"
+metadata:
+  name: "arangodb-local-storage"
+spec:
+  storageClass:
+    name: my-local-ssd
+    isDefault: true
+  localPath:
+  - /var/lib/arango-storage
